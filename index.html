@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple webpage using Bootstrap </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <style>
+        form {
+            position: absolute;
+            right: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="">
+        <nav class="navbar nav navbar-expand-md bg-light">
+            <a class="navbar-brand nav-link" href="#">
+                <img src="image.png" height="30px" width="30px">
+                CMRIT</a>
+            <ul class="collapse navbar-collapse navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" data-toggle="dropdown"
+                        aria-expanded="false">Programs Offered</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">B.Tech</a>
+                        <a class="dropdown-item" href="#">M.Tech</a>
+                        <a class="dropdown-item" href="#">MBA</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <form class="form-inline">
+                    <input type="text" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid jumbotron">
+        <h1>Hello Students!!!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptas consequuntur, accusamus voluptatem
+            suscipit aut voluptate cupiditate, necessitatibus beatae officia recusandae asperiores minima amet cumque
+            quae quo aliquam consequatur similique.</p>
+        <button class="btn btn-primary">Learn More</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>CSE</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium obcaecati dolore cum ipsa! Amet
+                    sequi corrupti reprehenderit, hic, at, optio quia possimus quis aut ea fugit dicta adipisci ducimus
+                    sapiente.</p>
+                <button class="btn btn-info">Learn More</button>
+            </div>
+            <div class="col-md-4">
+                <h4>CSE(AI&ML)</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum quod corporis. Exercitationem
+                    nobis saepe sequi, inventore sapiente error aspernatur nulla asperiores esse dignissimos, quos amet
+                    voluptatem nihil. Optio, omnis.</p>
+                <button class="btn btn-warning">Learn More</button>
+            </div>
+            <div class="col-md-4">
+                <h4>CSE(DS)</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum quod corporis. Exercitationem
+                    nobis saepe sequi, inventore sapiente error aspernatur nulla asperiores esse dignissimos, quos amet
+                    voluptatem nihil. Optio, omnis.</p>
+                <button class="btn btn-danger">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-center">
+        <p>&copy; Rights 2025</p>
+    </div>
+</body>
+
+</html>
